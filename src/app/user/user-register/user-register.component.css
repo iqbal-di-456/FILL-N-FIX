@@ -1,0 +1,45 @@
+.header-row{
+    display: flex;
+}
+.header-caption{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    padding-left: 0px;
+    width: 60%;
+}
+.header-caption h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.header-caption p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.header-options{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+.header-options h3{
+    font-size: 21px;
+    display: flex;
+    align-items: flex-end;
+}
+.header-options a{
+    color: cornflowerblue;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#signin-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+
+}
+#register-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}

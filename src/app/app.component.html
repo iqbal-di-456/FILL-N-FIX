@@ -1,0 +1,25 @@
+<div class="homepage-bg">
+  <div class="homepage-header">
+    <div class="hompage-logo">
+      <div class="header-caption-text-one">
+        <img class="header-img" src="../assets/images/truck.png">
+        <span class="header-caption">FILL&amp;FIX</span>
+      </div>
+      <div class="header-caption-text-two">
+        <a>DIESEL ON CLICK</a>
+      </div>
+    </div>
+    <div class="hompage-menu">
+      <nav>
+        <a [routerLink]="['/homepage']">HOME</a>
+        <a href="#">ORDER</a>
+        <a href="#">SERVICES</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">PARTNERSHIP</a>
+      </nav>
+    </div>
+  </div>
+  <div class="homepage-body">
+    <router-outlet></router-outlet>
+  </div>  
+</div>
